@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Name | Digital Marketer</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600&display=swap" rel="stylesheet">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Space Grotesk', sans-serif;
+    }
+
+    body {
+      background: #0a0a0a;
+      color: #f5f5f5;
+    }
+
+    header {
+      padding: 100px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 48px;
+      font-weight: 600;
+      letter-spacing: -1px;
+    }
+
+    header p {
+      margin-top: 15px;
+      color: #a1a1aa;
+      font-size: 18px;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 25px;
+      padding: 12px 24px;
+      border: 1px solid #f5f5f5;
+      color: white;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+
+    .btn:hover {
+      background: #f5f5f5;
+      color: black;
+    }
+
+    section {
+      padding: 70px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    h2 {
+      font-size: 28px;
+      margin-bottom: 25px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+    }
+
+    .card {
+      padding: 25px;
+      border-radius: 12px;
+      background: linear-gradient(145deg, #111, #1a1a1a);
+      border: 1px solid #222;
+      transition: 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+      border-color: #6366f1;
+    }
+
+    .card h3 {
+      margin-bottom: 10px;
+      font-size: 18px;
+    }
+
+    .highlight {
+      color: #818cf8;
+    }
+
+    .stats {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 15px;
+      font-weight: 600;
+      color: #d4d4d8;
+    }
+
+    footer {
+      text-align: center;
+      padding: 40px;
+      color: #71717a;
+    }
+
+    @media(max-width: 700px){
+      .grid {
+        grid-template-columns: 1fr;
+      }
+      header h1 {
+        font-size: 36px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>Hey, I'm <span class="highlight">Your Name</span></h1>
+  <p>I turn attention into revenue using smart ads & creative strategy.</p>
+  <a href="#contact" class="btn">Let's Work →</a>
+</header>
+
+<section>
+  <h2>What I Do</h2>
+
+  <div class="grid">
+    <div class="card">
+      <h3>🚀 Paid Ads</h3>
+      <p>Performance-driven Meta & Google campaigns that scale profitably.</p>
+    </div>
+
+    <div class="card">
+      <h3>🎯 Funnels</h3>
+      <p>Conversion-focused systems that turn clicks into customers.</p>
+    </div>
+
+    <div class="card">
+      <h3>🎨 Content</h3>
+      <p>Scroll-stopping creatives designed to capture attention fast.</p>
+    </div>
+
+    <div class="card">
+      <h3>📊 Analytics</h3>
+      <p>Data-backed decisions to optimize and scale growth.</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>Proof</h2>
+
+  <div class="card">
+    <p>Scaled a brand to <span class="highlight">3X ROI</span> using Meta Ads.</p>
+    <div class="stats">
+      <span>ROI: 300%</span>
+      <span>Growth: +120%</span>
+    </div>
+  </div>
+
+  <div class="card">
+    <p>Cut lead costs by <span class="highlight">40%</span> while doubling conversions.</p>
+    <div class="stats">
+      <span>CPL ↓ 40%</span>
+      <span>Leads ↑ 2X</span>
+    </div>
+  </div>
+
+</section>
+
+<section id="contact">
+  <h2>Contact</h2>
+  <p>Email: your@email.com</p>
+  <p>WhatsApp: +91XXXXXXXXXX</p>
+</section>
+
+<footer>
+  <p>© 2026 Your Name — Built different ⚡</p>
+</footer>
+
+</body>
+</html>
